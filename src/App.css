@@ -1,0 +1,292 @@
+/* App.css */
+
+/* default.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: var(--bg);
+}
+
+:root {
+  --main: #163758;
+  --bg: #eeeeee;
+  --point: #f4ae3f;
+  --stroke: #273b5e;
+}
+/* nav */
+
+.nav {
+  width: 100%;
+  background-color: #000;
+  text-align: right;
+  padding: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+}
+/* .container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #efefef;
+} */
+.itemList .item {
+  display: flex;
+}
+
+.itemList img {
+  width: 100%;
+}
+
+.item .text,
+.item .img {
+  flex: 1;
+}
+
+/* Home - mainBanner */
+
+/* contents */
+#contents {
+  background-color: var(--bg);
+  width: 100vw;
+  height: calc(100vh - 90px); /*header 뺀 값*/
+  display: flex;
+}
+/* main-banner1*/
+#contents .mainBanner1 {
+  position: relative;
+  width: calc((100% - 30%));
+}
+#contents .mainBanner1 .myImage1 {
+  position: absolute;
+  right: 60px;
+  bottom: 150px;
+  width: 570px;
+  height: 542px;
+  /* background-image: url(../images/my-image.svg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* main-banner2*/
+
+.mainBanner2 {
+  background-color: var(--main);
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBanner2 .bannerBox {
+  position: absolute;
+  left: 60px;
+}
+.mainBanner2 .bannerTitle {
+  line-height: normal;
+}
+
+.mainBanner2 .bannerTitle h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.mainBanner2 .bannerTitle h2 strong {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+}
+.mainBanner2 .bannerButton.btnPush {
+  width: 280px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: var(--point);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px 0;
+  transition: all 0.2s;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 2;
+}
+
+.bannerButton.btn-Push:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.bannerButton.btnPush:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  color: #fff;
+  z-index: 3;
+}
+
+.mainBanner2 .bannerButton a {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 5;
+}
+
+.mainBanner2 .iconBox {
+  display: flex;
+  gap: 40px;
+}
+.mainBanner2 .iconBox .icon {
+  width: 50px;
+  height: 50px;
+}
+.mainBanner2 .iconBox a img {
+  width: 100%;
+}
+.mainBanner2 .iconBox a {
+  margin-right: 44px;
+}
+
+/* About me */
+#about .container {
+  width: 1520px;
+  /* height: 1025px; */
+  height: 100vh;
+  /* background-image: url(../images/about.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-left: 20px solid var(--stroke);
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#about .container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#about .introBox {
+  width: 1290px;
+  height: 700px;
+  display: flex;
+}
+#about .myImageName {
+  text-align: center;
+  margin: 80px 124px 0 0;
+}
+
+#about .myImageName .myImage2 {
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+  /* background-image: url(../images/my-image2.svg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px;
+}
+#about .myImage-Name h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+/* about-text-box */
+#about .aboutTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aboutTextBox .intro {
+  border-right: 8px solid var(--stroke);
+  padding: 30px;
+}
+.aboutTextBox .intro p {
+  font-size: 20px;
+  text-indent: 1em;
+}
+.private .privateBox {
+  width: 734px;
+}
+
+.private {
+  /* margin: 50px 0; */
+}
+.privateBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.private .privateBox .privateBoxText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.private .privateBox .privateBoxText .pIcon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+.private .privateBox .privateBoxText .pIcon img {
+  width: 100%;
+}
+.private .privateBox .text1 {
+  width: 654px;
+  height: 63px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+/* about-edu */
+.edu {
+  border-left: 8px solid var(--stroke);
+  padding: 10px 20px 10px 30px;
+  height: 180px;
+}
+
+.edu h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.edu .eduUl {
+  list-style-type: square;
+  list-style-position: inherit;
+  margin-left: 50px;
+}
+.edu .eduUl li {
+  font-size: 20px;
+}
