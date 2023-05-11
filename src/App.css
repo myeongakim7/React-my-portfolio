@@ -26,25 +26,70 @@ body {
   --point: #f4ae3f;
   --stroke: #273b5e;
 }
-/* nav */
 
-.nav {
+/* header */
+.header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main);
+}
+.header .headerLogo {
+  width: calc((100% - 70%));
+  border: 2px solid red;
+}
+.header .headerLogo .logo {
+  width: 100px;
+  height: 90px;
+  border: 3px solid yellow;
+  margin: 0 125px 0 100px;
+}
+.header .headerLogo .logo img {
   width: 100%;
-  background-color: #000;
-  text-align: right;
-  padding: 20px;
+}
+/* nav */
+.nav {
+  width: calc((100%-30%));
+  background-color: var(--main);
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
 }
 
 .nav a {
   color: #fff;
   text-decoration: none;
   margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
 }
-/* .container {
+
+/* 여긴 아직 해결 안됨 */
+.nav a:before {
+  overflow: hidden;
+  max-width: 0;
+  border-bottom: 2px solid var(--point);
+  color: var(--point);
+  -webkit-transition: max-width 0.5s;
+  -moz-transition: max-width 0.5s;
+  transition: max-width 0.5s;
+}
+
+.nav a:hover:before,
+.nav a:focus:before {
+  max-width: 100%;
+}
+
+/* projects */
+.container {
   width: 80%;
   margin: 0 auto;
   background-color: #efefef;
-} */
+  border: 1px solid red;
+}
 .itemList .item {
   display: flex;
 }
@@ -56,6 +101,12 @@ body {
 .item .text,
 .item .img {
   flex: 1;
+}
+.item .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 /* Home - mainBanner */

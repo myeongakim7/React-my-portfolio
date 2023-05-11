@@ -4,11 +4,19 @@ import { Link } from "react-router-dom";
 // a 는 로딩해서 .. 로딩시간 느림
 function Nav() {
   return (
-    <nav className="nav">
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/projects">Projects</Link>
-    </nav>
+    <header className="header">
+      <div className="headerLogo">
+        <Link to="/">
+          <img className="logo" src="" alt="logo" />
+        </Link>
+      </div>
+      <div className="nav">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
+    </header>
   );
 }
 
