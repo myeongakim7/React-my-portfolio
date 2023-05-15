@@ -1,3 +1,24 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&section=header&text=Myeong%20A%20homepage&fontSize=50&animation=fadeIn&fontColor=fff&color=gradient&customColorList=0,2,2,2,2,3" />
+<h2>My portfolio react homepage</h2>
+
+<p>Demo: <p>
+<p>Github:https://myeongakim7.github.io/React-my-portfolio/</p>
+<p>Figma: <a href="https://www.figma.com/file/dQzmJWTLAJNzlVqLcpMi0s/%EA%B0%9C%EC%9D%B8-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%8B%9C%EC%95%88?node-id=0%3A1&t=YdMhhoaTGx498YdA-1" >&nbsp;Click</a> </p>
+<p>html 버전: https://myeongakim7.github.io/My-portfolio-homepage/ </p>
+<h2>Stack</h2>
+<div style="display:flex">
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+</div>
+<h2>Tool</h2>
+<div style="display:flex">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
+
 <h3>23/05/11</h3>
 <ul>
   <li>Home / About / Nav / Item(프로젝트) 컴포넌트 생성</li>
@@ -9,5 +30,5 @@
   <li>public 폴더 안에 images 폴더 생성 후 각 페이지에 이미지 추가 </li>
   <li>AOS 설치 후 스크롤 애니메이션 추가</li>
   <p>=>npm i aos</p>
-  <p>=>useEffect 함수를 이용해 aos 초기화 하고 시작</
+  <p>=>useEffect 함수를 이용해 aos 초기화 하고 시작</p>
 </ul>
