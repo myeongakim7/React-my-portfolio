@@ -7,7 +7,7 @@ function Nav() {
     <header className="header">
       <div className="headerLogo">
         <Link to="/">
-          <img className="logo" src="" alt="logo" />
+          <img className="logo" src="../images/KMA-white.svg" alt="logo" />
         </Link>
       </div>
       <div className="nav">

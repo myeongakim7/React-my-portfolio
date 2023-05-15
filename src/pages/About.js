@@ -32,7 +32,7 @@ function About() {
                 <div className="privateBox">
                   <div className="privateBoxText">
                     <div className="pIcon">
-                      {/* <img src="./images/icon-address.svg" alt="address" /> */}
+                      <img src="../images/icon-address.svg" alt="address" />
                     </div>
                     <p className="text1">
                       5, Eonaedeul-ro, Uiwang-si, Gyeonggi-do
@@ -40,13 +40,13 @@ function About() {
                   </div>
                   <div className="privateBoxText">
                     <div className="pIcon">
-                      {/* <img src="./images/icon-call.svg" alt="call" /> */}
+                      <img src="../images/icon-call.svg" alt="call" />
                     </div>
                     <p className="text1">(82+) 10-7279-7724</p>
                   </div>
                   <div className="privateBoxText">
                     <div className="pIcon">
-                      {/* <img src="./images/icon-email.svg" alt="email" /> */}
+                      <img src="../images/icon-email.svg" alt="email" />
                     </div>
                     <p className="text1">okmyonga@naver.com</p>
                   </div>

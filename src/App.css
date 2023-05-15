@@ -38,12 +38,11 @@ body {
 }
 .header .headerLogo {
   width: calc((100% - 70%));
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .header .headerLogo .logo {
-  width: 100px;
-  height: 90px;
-  border: 3px solid yellow;
+  width: 96px;
+  height: 80px;
   margin: 0 125px 0 100px;
 }
 .header .headerLogo .logo img {
@@ -115,7 +114,7 @@ body {
 #contents {
   background-color: var(--bg);
   width: 100vw;
-  height: calc(100vh - 90px); /*header 뺀 값*/
+  height: calc(100vh - 80px); /*header 뺀 값*/
   display: flex;
 }
 /* main-banner1*/
@@ -129,7 +128,7 @@ body {
   bottom: 150px;
   width: 570px;
   height: 542px;
-  /* background-image: url(../images/my-image.svg); */
+  background-image: url(/public/images/my-image.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,7 +180,7 @@ body {
   z-index: 2;
 }
 
-.bannerButton.btn-Push:after {
+.bannerButton.btnPush:after {
   content: "";
   position: absolute;
   left: 0;
@@ -233,7 +232,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border-left: 20px solid var(--stroke);
+  /* border-left: 20px solid var(--stroke); */
   margin: 0 auto;
   padding: 40px 0;
   display: flex;
@@ -261,7 +260,7 @@ body {
   width: 430px;
   height: 430px;
   border-radius: 50%;
-  /* background-image: url(../images/my-image2.svg); */
+  background-image: url(/public/images/my-image2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -340,4 +339,60 @@ body {
 }
 .edu .eduUl li {
   font-size: 20px;
+}
+
+/* Project */
+
+/* contact */
+
+#contact .container {
+  width: 1520px;
+  height: 100vh;
+  /* height: 638px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact .container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact .contactCover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+#contact .container .contactBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactIconBox {
+  width: 400px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.contactIconBox .cImgBox {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 30px;
+}
+.contactIconBox .cImgBox img {
+  width: 100%;
+}
+.contactIconBox h3 {
+  font-size: 26px;
+  font-weight: 700;
 }
