@@ -7,4 +7,7 @@
 <h3>23/05/14</h3>
 <ul>
   <li>public 폴더 안에 images 폴더 생성 후 각 페이지에 이미지 추가 </li>
+  <li>AOS 설치 후 스크롤 애니메이션 추가</li>
+  <p>=>npm i aos</p>
+  <p>=>useEffect 함수를 이용해 aos 초기화 하고 시작</
 </ul>
