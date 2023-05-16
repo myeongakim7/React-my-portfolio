@@ -9,7 +9,7 @@ function Item({ title, desc, link, img }) {
         <div className="text">
           <h2>{title}</h2>
           <p>{desc}</p>
-          <a href={link}>작품 보러가기</a>
+          <a href={link}>Link&nbsp;&nbsp;→</a>
         </div>
         {/* text */}
 

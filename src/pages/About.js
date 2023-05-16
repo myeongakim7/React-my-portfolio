@@ -8,7 +8,7 @@ function About() {
       {/* About me */}
       <div id="about">
         <div className="container">
-          <h1>About me</h1>
+          <h1 data-aos="fade-right">About me</h1>
           <div className="introBox">
             <div className="myImageName">
               <div className="myImage2"></div>
@@ -75,6 +75,30 @@ function About() {
         {/* <!--container--> */}
       </div>
       {/* <!--about--> */}
+
+      <div id="expertise">
+        <div
+          className="container"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <h1>Expertise</h1>
+          <div className="skillBox">
+            <div className="skill">
+              <div className="skillImg">
+                <img
+                  src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,vscode,bootstrap,sqlite,git,figma&perline=5"
+                  alt="icon"
+                />
+              </div>
+            </div>
+            {/* <!--skill--> */}
+          </div>
+          {/* skill-box */}
+        </div>
+        {/* container */}
+      </div>
+      {/* expertise */}
     </>
   );
 }

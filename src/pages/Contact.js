@@ -7,7 +7,11 @@ function Contact() {
       <Nav />
       <div id="contact">
         <div className="container">
-          <div className="contactText">
+          <div
+            className="contactText"
+            data-AOS="fade-left"
+            data-aos-duration="1000"
+          >
             <h1>Contact me</h1>
             <div className="contactCover">
               <div className="contactBox">
