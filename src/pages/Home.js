@@ -1,6 +1,5 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Nav from "../components/Nav";
-// import myImg from "/images/my-image.svg";
 
 function Home() {
   return (
@@ -45,6 +44,7 @@ function Home() {
               </div>
             </div>
             {/* <!-- icon-box --> */}
+            <Like />
           </div>
           {/* <!--banner-box--> */}
         </div>
@@ -52,6 +52,32 @@ function Home() {
       </div>
       {/* <!--contents--> */}
     </>
+  );
+}
+
+function Like() {
+  // states
+  const [likes, setLikes] = useState(23);
+  const btnLike = () => {
+    setLikes(likes + 1);
+    console.log(likes);
+  };
+
+  useEffect(() => {
+    console.log("Like state 상태 업데이트 ");
+  }, [likes]);
+
+  return (
+    <div className="likeBox">
+      <button
+        onClick={() => {
+          btnLike();
+        }}
+      >
+        <img src="../images/icon-heart.svg" alt="github" />
+      </button>
+      <span className="likesCount">{likes}</span>
+    </div>
   );
 }
 
