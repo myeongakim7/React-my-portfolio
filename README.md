@@ -32,3 +32,8 @@
   <p>=>npm i aos</p>
   <p>=>useEffect 함수를 이용해 aos 초기화 하고 시작</p>
 </ul>
+<h3>23/05/18</h3>
+<ul>
+  <li>Home) 하트 아이콘 버튼 클릭 시 숫자 증가(좋아요 버튼) </li>
+  <p>=> useState로 초기값 잡고 useEffect로 함수가 변경되는지 확인</p>
+</ul>
