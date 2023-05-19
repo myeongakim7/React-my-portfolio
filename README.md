@@ -37,3 +37,8 @@
   <li>Home) 하트 아이콘 버튼 클릭 시 숫자 증가(좋아요 버튼) </li>
   <p>=> useState로 초기값 잡고 useEffect로 함수가 변경되는지 확인</p>
 </ul>
+<h3>23/05/19</h3>
+<ul>
+  <li>Projects) 자식 컴포넌트 Images 추가 및 배열 </li>
+  <li>Projects) aos 스크롤 애니메이션 추가</li>
+</ul>
