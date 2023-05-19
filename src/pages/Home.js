@@ -74,7 +74,7 @@ function Like() {
           btnLike();
         }}
       >
-        <img src="../images/icon-heart.svg" alt="github" />
+        <img src="../images/icon-heart.svg" alt="heart" />
       </button>
       <span className="likesCount">{likes}</span>
     </div>

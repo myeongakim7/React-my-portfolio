@@ -374,78 +374,63 @@ body {
   height: calc(100vh - 80px); /*header 뺀 값*/
   margin: 0 auto;
   /* border: 2px solid red; */
-  padding: 30px 0;
+  padding: 50px 0;
 }
 .itemList {
   width: 100%;
   height: 100vh;
+  /* border: 2px solid violet; */
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
-  align-items: center;
-  gap: 30px;
+  gap: 80px;
+}
+.itemList .itemBox {
+  /* width: 720px; */
+  /* height: 470px; */
+  /* border: 2px solid darkblue; */
 }
 
-.itemList .pImage1 {
-  width: 720px;
-  height: 350px;
-  transition: 0.4s ease-in-out;
-}
-
-.itemList .pImage1 img {
+.itemList img {
   width: 100%;
   height: 100%;
   transform: scale(1);
   transition: 0.5s ease;
 }
-.itemList .pImage1 img:hover {
+.itemList img:hover {
   transform: scale(1.05);
 }
 
-.itemList .pImage2 {
-  width: 389px;
-  height: 350px;
-  transition: 0.4s ease-in-out;
-}
-
-.itemList .pImage2 img {
-  width: 100%;
-  height: 100%;
-  transform: scale(1);
-  transition: 0.5s ease;
-}
-.itemList .pImage2 img:hover {
-  transform: scale(1.05);
-}
-.itemList .pImage {
-  border: 2px solid deeppink;
-}
 .item .text {
+  margin-top: 10px;
   display: flex;
-  /* gap: 10px; */
+  gap: 2px;
   flex-direction: column;
   justify-content: center;
   align-items: left;
 }
 
 .text h2 {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
 }
 .text a {
   border: 2px solid #ccc;
-  color: var(--main);
+  border-radius: 16px;
+  color: #727272;
   width: 100px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  font-size: 14px;
+  margin-top: 5px;
 }
 .text a:hover {
   background-color: var(--main);
   color: #fff;
   transition: all 0.3s ease;
+  border: none;
 }
 
 /* contact */

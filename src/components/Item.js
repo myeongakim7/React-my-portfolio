@@ -2,7 +2,7 @@
 import React from "react";
 // import Projects from "../pages/Projects";
 
-function Item({ title, desc, link, img }) {
+function Item({ title, desc, link }) {
   return (
     <>
       <div className="item">
@@ -12,10 +12,6 @@ function Item({ title, desc, link, img }) {
           <a href={link}>Link&nbsp;&nbsp;→</a>
         </div>
         {/* text */}
-
-        <div className="img">
-          <img src={img} alt="{title}" />
-        </div>
       </div>
       {/*item */}
     </>
