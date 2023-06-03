@@ -24,6 +24,11 @@ function Projects() {
       desc: "기존 사이트의 노후화 개선을 위해 리뉴얼한 반응형 홈페이지입니다.",
       link: "https://myeongakim7.github.io/Dong-A-Pharmaceutical-Co.-Ltd.-Renewal/",
     },
+    {
+      title: "연하장(New year's card)",
+      desc: "node.js를 활용, DB파일을 분류해 댓글 추가/삭제 할 수 있는 연하장입니다",
+      link: "https://port-0-new-years-card-1jx7m2gldie61h6.gksl2.cloudtype.app/",
+    },
   ];
   const imgInfo = [
     {
@@ -42,6 +47,10 @@ function Projects() {
       img: "/images/p-1.jpg",
       title: "동아제약",
     },
+    {
+      img: "/images/p-5.jpg",
+      title: "연하장(New year's card)",
+    },
   ];
   // 작품 수 만큼 만들기
   const ImgStyle1 = {
@@ -53,6 +62,10 @@ function Projects() {
     width: "390px",
     height: "350px",
     // border: "3px solid purple",s
+  };
+  const ImgStyle3 = {
+    width: "603px",
+    height: "340px",
   };
   return (
     <>
@@ -119,6 +132,19 @@ function Projects() {
                 title={itemInfo[2].title}
                 desc={itemInfo[2].desc}
                 link={itemInfo[2].link}
+                // img={itemInfo[2].img}
+              />
+            </div>
+            <div className="itemBox">
+              <Images
+                style={ImgStyle3}
+                img={imgInfo[4].img}
+                title={imgInfo[4].title}
+              />
+              <Item
+                title={itemInfo[4].title}
+                desc={itemInfo[4].desc}
+                link={itemInfo[4].link}
                 // img={itemInfo[2].img}
               />
             </div>
