@@ -45,5 +45,6 @@
 <h3>23/05/22</h3>
 <ul>
   <li>Projects)연하장(New years card) 포트폴리오 추가</li>
+  <li>npm i react-responsive 설치(리액트 반응형 홈페이지 제작예정)</li>
 </ul>
 
