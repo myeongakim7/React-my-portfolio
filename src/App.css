@@ -38,30 +38,31 @@ body {
   width: 100vw;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--main);
 }
 .header .headerLogo {
-  width: calc((100% - 70%));
+  width: calc((100% - 80%));
+  height: 80px;
   /* border: 2px solid red; */
 }
 .header .headerLogo .logo {
   width: 96px;
   height: 80px;
-  margin: 0 125px 0 100px;
+  /* margin: 0 125px 0 100px; */
 }
 .header .headerLogo .logo img {
   width: 100%;
 }
 /* nav */
 .nav {
-  width: calc((100%-30%));
+  width: calc((100%-20%));
   background-color: var(--main);
   z-index: 6;
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 40px;
 }
 
 .nav a {

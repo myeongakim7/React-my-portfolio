@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+// import { useMediaQuery } from "react-responsive";
 
 function App() {
   // AOS 초기화
@@ -19,14 +20,16 @@ function App() {
   });
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

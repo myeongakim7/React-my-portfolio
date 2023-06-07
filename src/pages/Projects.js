@@ -67,6 +67,7 @@ function Projects() {
     width: "603px",
     height: "340px",
   };
+
   return (
     <>
       <Nav />
@@ -83,6 +84,7 @@ function Projects() {
             data-aos-once="false"
             data-aos-anchor-placement="top-center"
           >
+
             <div className="itemBox">
               <Images
                 style={ImgStyle1}
@@ -90,7 +92,7 @@ function Projects() {
                 title={imgInfo[0].title}
               />
               <Item
-                // img={itemInfo[0].img}
+  
                 title={itemInfo[0].title}
                 desc={itemInfo[0].desc}
                 link={itemInfo[0].link}
@@ -103,7 +105,6 @@ function Projects() {
                 title={imgInfo[1].title}
               />
               <Item
-                // img={itemInfo[1].img}
                 title={itemInfo[1].title}
                 desc={itemInfo[1].desc}
                 link={itemInfo[1].link}
@@ -119,7 +120,6 @@ function Projects() {
                 title={itemInfo[3].title}
                 desc={itemInfo[3].desc}
                 link={itemInfo[3].link}
-                // img={itemInfo[3].img}
               />
             </div>
             <div className="itemBox">
@@ -132,7 +132,7 @@ function Projects() {
                 title={itemInfo[2].title}
                 desc={itemInfo[2].desc}
                 link={itemInfo[2].link}
-                // img={itemInfo[2].img}
+       
               />
             </div>
             <div className="itemBox">
@@ -145,7 +145,7 @@ function Projects() {
                 title={itemInfo[4].title}
                 desc={itemInfo[4].desc}
                 link={itemInfo[4].link}
-                // img={itemInfo[2].img}
+             
               />
             </div>
           </section>
