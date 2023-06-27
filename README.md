@@ -47,4 +47,8 @@
   <li>Projects)연하장(New years card) 포트폴리오 추가</li>
   <li>npm i react-responsive 설치(리액트 반응형 홈페이지 제작예정)</li>
 </ul>
+<h3>23/6/27</h3>
+<ul>
+  <li>Home) map 함수 활용해 아이콘 반복 되도록 함(코드변경) </li>
+</ul>
 
