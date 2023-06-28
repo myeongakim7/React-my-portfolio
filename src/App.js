@@ -7,6 +7,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+// 반응형 컴포넌트 추가
+// import PC from "./components/Responsive";
+// import Mobile from "./components/Responsive";
 // AOS 추가
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -21,6 +24,8 @@ function App() {
 
   return (
     <>
+      {/* <Mobile>Mobile</Mobile>
+      <PC>PC</PC> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

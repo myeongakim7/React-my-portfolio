@@ -27,7 +27,8 @@ function Home() {
               <a href="/about">about me → </a>
             </div>
             <div className="iconBox">
-              <div className="icon">
+              <Icon />
+              {/* <div className="icon">
                 <a href="https://instagram.com/myonaa_?igshid=YmMyMTA2M2Y=">
                   <img src="../images/icon-instagram.svg" alt="instagram" />
                 </a>
@@ -41,9 +42,10 @@ function Home() {
                 <a href="https://github.com/myeongakim7">
                   <img src="../images/icon-github.svg" alt="github" />
                 </a>
-              </div>
+              </div> */}
             </div>
             {/* <!-- icon-box --> */}
+
             <Like />
           </div>
           {/* <!--banner-box--> */}
@@ -53,6 +55,37 @@ function Home() {
       {/* <!--contents--> */}
     </>
   );
+}
+
+function Icon() {
+  const icon = [
+    {
+      address: "https://instagram.com/myonaa_?igshid=YmMyMTA2M2Y=",
+      src: "../images/icon-instagram.svg",
+      alt: "insta",
+    },
+    {
+      address: "https://blog.naver.com/myeongakim",
+      src: "../images/icon-naver.svg",
+      alt: "naver",
+    },
+    {
+      address: "https://github.com/myeongakim7",
+      src: "../images/icon-github.svg",
+      alt: "github",
+    },
+  ];
+  console.log(icon);
+  return icon.map(function (a, i) {
+    // console.log(a, i);
+    return (
+      <div class="icon" key={i}>
+        <a href={a.address}>
+          <img src={a.src} alt={a.alt} />
+        </a>
+      </div>
+    );
+  });
 }
 
 function Like() {
