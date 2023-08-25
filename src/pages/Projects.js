@@ -55,7 +55,7 @@ function ItemInfo() {
     {
       title: "[그룹 프로젝트] 금연어플 담담",
       desc: "금단증상을 극복하기 위한 정보, 변화 단계를 확인하실 수 있습니다. ",
-      link: "https://port-0-damdamv2-4fuvwk25lcstd4fc.gksl2.cloudtype.app/",
+      link: "https://port-0-damdam-no-smoking-app-1jx7m2gldidl1j7.gksl2.cloudtype.app/ ",
       img: "/images/p-3.jpg",
       style: ImgStyle2,
     },
